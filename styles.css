@@ -1,1 +1,45 @@
-/*  your css code here. If applicable */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.card {
+    width: 320px;
+    padding: 60px;
+    margin: 76px auto;
+    background-color: #f1f1f1;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 202px;
+    object-fit: cover;
+}
+
+.card h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 56px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.card p {
+    font-family: "Times New Roman", serif;
+    font-size: 32px;
+    margin: 8px 0;
+}
+
+.card button {
+    padding: 18px 20px;
+    background-color: #ff5f5a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 32px;
+    cursor: pointer;
+    margin-top: 14px;
+}
